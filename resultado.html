@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .container {
+                width: 50%;
+                padding: 3%;
+                margin: auto;
+                background-color: lightyellow;                
+                box-shadow: 0 0 25px gray;
+            }
+            .note {
+                margin: 0;
+                font-size: 9px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h3>Olá {{destinatario}}</h3>
+        <p>O seu amigo secreto é: <b>{{resultado}}</b></p>
+        
+        <p>
+            <ul>
+                <li>O valor do presente deve ser próximo de <b>R$ 50,00</b></li>
+                <li>A revelação será no dia <b>11/12/2021</b></li>
+                <li>Nos reuniremos na <b>casa da Juliana</b> (instruções no grupo)</li>
+                <li>Não estrague a brincadeira! Mantenha o sigilo até o momento da revelação.</li>
+            </ul>
+        </p>
+        <span class="note">Data do sorteio: {{dataHora}}</span>
+        </div>
+    </body>
+</html>
